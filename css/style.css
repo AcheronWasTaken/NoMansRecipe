@@ -1,0 +1,67 @@
+:root {
+    --background:#313147;
+    --header: #ff8400
+}
+
+@font-face{
+    font-family: nms;
+    src: url(fonts/geonms-webfont.woff);
+}
+
+.icon{
+    height: 50px;
+}
+
+.icon-small{
+    height: 40px;
+}
+
+.right-flex-box{
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.header-icon-text{
+    display: flex;
+    padding-right: 10px;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.header-search-box{
+    width: 500px;
+    height: 32px;
+    border-radius: 0;
+    background-color: var(--background);
+}
+
+img{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--background);
+    margin: 0;
+}
+
+h1{
+    font-family: nms;
+    font-weight: 800;
+    text-shadow: #313147;
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+    font-size: 45;
+    word-spacing: 2px;
+
+}
+
+header{
+    background-color: var(--header);
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    text-transform: uppercase;
+    width: 100%;
+}
