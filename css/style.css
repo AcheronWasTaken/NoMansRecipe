@@ -1,0 +1,55 @@
+:root{
+    --background: #0a212f ;
+    --header: #ff8400 ;
+}
+
+@font-face {
+    font-family: nms-normal;
+    src: url(fonts/geonms-webfont.woff);
+}
+
+body {
+    background-color: var(--background);
+    color: white;
+    margin: 0;
+    font-family: nms-normal;
+}
+
+canvas {
+    width: 100%
+}
+
+.icon {
+    height: 50px;
+}
+
+.icon-small {
+    height: 30px;
+}
+
+.app-title {
+    font-weight: bold;
+    font-size: 50
+}
+
+.flex-box, .flex-box-left-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-box-left-right {
+    justify-content: space-between;
+}
+
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-color: var(--header);
+    height: 3.1rem;
+    position: sticky;
+    top: 0
+}
