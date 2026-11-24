@@ -15,6 +15,10 @@ body {
     font-family: nms-normal;
 }
 
+canvas {
+    width: 100%
+}
+
 .icon {
     height: 50px;
 }
@@ -46,5 +50,6 @@ body {
     color:white;
     background-color: var(--header);
     height: 3.1rem;
-    position: relative;
+    position: sticky;
+    top: 0
 }
